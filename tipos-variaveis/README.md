@@ -19,6 +19,6 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Tipos primitivos de dados
 
-Os oito tipod primitivos de Java são:
+Os oito tipos primitivos de Java são:
 int, byte, short, long, float, double, boolean e char - Esses tipos não são considerados objetos e portanto representam valores brutos.
 Eles são armazenados diretamente na pilha de memória. (Memory satck)

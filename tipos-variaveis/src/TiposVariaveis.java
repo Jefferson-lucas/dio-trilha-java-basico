@@ -4,7 +4,8 @@ public class TiposVariaveis {
         double numeroDois = 3.5;
         char simOuNao = 's';
         float NumeroTres = 3.5F;
-        
+
         String nome = "Jefferson";
+        boolean doadorOrgao = false;
     }
 }

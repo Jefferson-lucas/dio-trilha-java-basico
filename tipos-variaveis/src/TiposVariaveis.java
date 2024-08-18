@@ -1,5 +1,5 @@
 public class TiposVariaveis {
-    public static void main(String[] args) throws Exception {
+        public static void main(String[] args) throws Exception {
         int numeroUm = 1;
         double numeroDois = 3.5;
         char simOuNao = 's';

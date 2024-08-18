@@ -60,3 +60,23 @@ Representam o recurso que nos permite criar expressões lógicas maiores a parti
 
 (&&) Operador lógico "E"
 (||) Operador lógico "OU"
+
+## Métodos
+
+Correspondem a funçoes ou sub-rotinas disponíveis dentro das nossas classes.
+Convenções de escrita de métodos:
+
+- Deve ser nomeado como verbo
+- Seguir o padrão camelCase (TOdas as letras minúsculas com exceção da primeira letra da segunda palavra)
+
+Exemplos:
+
+somar(int n1, int n2){}
+abrirConexao() {}
+findById(int id){}
+
+2 aspectos que necessitam ser analizados antes da escrita do método:
+
+1 - Qual a proposta do método?
+2 - Qual o tipo de retorno esperado após executar o método?
+

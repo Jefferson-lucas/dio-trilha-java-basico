@@ -126,3 +126,9 @@ findById(int id){}
 - **break**: sai do bloco de código em que ele está
 - **case**: executa um bloco de código dependendo do teste do switch
 - **continue**: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop
+
+# Tipo de comentário
+
+- On line (//...)
+- Mult Line (/*...*/)
+- Documentation (/**....*/)

@@ -1,9 +1,8 @@
-import java.text.BreakIterator;
-
 public class SistemaMedida {
     public static void main(String[] args) {
         String sigla = "A";
-
+        
+        //Switch Case
         switch (sigla) {
             case "P": {
                 System.out.println("Pequeno");

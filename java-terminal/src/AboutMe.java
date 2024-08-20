@@ -5,6 +5,7 @@ public class AboutMe {
     public static void main(String[] args) throws Exception {
 
         //craindo o objeto scanner
+double altura;
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
@@ -19,7 +20,7 @@ public class AboutMe {
         int idade = scanner.nextInt();
 
         System.out.println("Digite a sua altura");
-        double altura = scanner.nextDouble();
+        altura = scanner.nextDouble();
 
         scanner.close();
 

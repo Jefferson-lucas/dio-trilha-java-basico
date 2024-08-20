@@ -1,6 +1,7 @@
 public class ResultadoEscolar {
     public static void main(String[] args) throws Exception {
-        int nota = 7;
+        int nota = 5;
+        
 
         //condicional composta
         if (nota >= 7) {
@@ -10,5 +11,9 @@ public class ResultadoEscolar {
         } else{
             System.out.println("Reprovado");
         }
+
+        //Condicional ternária
+        String resultado = (nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperação" : "Reprovado");
+        System.out.println(resultado);
     }
 }

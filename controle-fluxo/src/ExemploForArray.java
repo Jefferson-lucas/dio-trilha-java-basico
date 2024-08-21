@@ -7,6 +7,9 @@ public class ExemploForArray {
             System.out.println("O aluno no indice x = " + x + " é " + alunos[x]);
         }
 
+        //imprime a quantidade  de elementos do  array
+        System.out.println(alunos.length);
+
         // Forma otimizada para trabalhar com Arrays onde a cada iteração a variavel declarada recebe o elemento na posição informada
         for(String aluno : alunos){
             System.out.println("O nome do aluno é: " + aluno);

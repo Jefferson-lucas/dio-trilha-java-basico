@@ -25,9 +25,7 @@ public class FormatadorCepExemplo {
             throw new CepInvalidoException();
         }
         
-        cepFinal = cep.substring(0, 2);
-        cepFinal = cepFinal.concat(".").concat(cep.substring(2,5));
-        cepFinal = cepFinal.concat("-").concat(cep.substring(5, 8));
+        cepFinal = cep.substring(0, 2).concat(".").concat(cep.substring(2,5)).concat("-").concat(cep.substring(5, 8));
 
         return cepFinal;
     }

@@ -15,6 +15,8 @@ public class FormatadorCepExemplo {
             // TODO Auto-generated catch block
             System.out.println("O CEP deve conter 8 digitos");
         }
+
+        scanner.close();
     }
 
     static String formatarCep(String cep) throws CepInvalidoException{
